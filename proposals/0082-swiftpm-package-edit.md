@@ -3,7 +3,7 @@
 * Proposal: [SE-0082](0082-swiftpm-package-edit.md)
 * Author: [Daniel Dunbar](https://github.com/ddunbar)
 * Review Manager: [Anders Bertelrud](https://github.com/abertelrud)
-* Status: **Accepted**
+* Status: **Implemented (Swift 3.1)**
 * Decision Notes: [Rationale](https://lists.swift.org/pipermail/swift-evolution/Week-of-Mon-20160509/017038.html)
 
 ## Introduction
@@ -81,7 +81,7 @@ Our proposed solution is as follows:
 
    If a such an editable package is present in `Packages`, then `swift build`
    will always use the exact sources in this directory to build, regardless of
-   it's state, git repository status, tags, or the tag desired by dependency
+   its state, git repository status, tags, or the tag desired by dependency
    resolution. In other words, this will "just build" against the sources that
    are present.
 

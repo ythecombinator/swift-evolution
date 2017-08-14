@@ -87,11 +87,9 @@ repository][swift-evolution-repo] to reflect that decision.
 ## Proposal states
 A given proposal can be in one of several states:
 
-* **Awaiting review**: The proposal is awaiting review. Once known,
-  the dates for the actual review will be placed in the proposal
-  document and updated in the [list of proposals](index.xml). When the
-  review period begins, the review manager will update the state to
-  *Active review*.
+* **Awaiting review**: The proposal is awaiting review. Once known, the dates
+  for the actual review will be placed in the proposal document. When the review
+  period begins, the review manager will update the state to *Active review*.
 * **Scheduled for review (MONTH DAY...MONTH DAY)**: The public review of the proposal
   on the [swift-evolution mailing list][swift-evolution-mailing-list]
   has been scheduled for the specified date range.
@@ -122,7 +120,7 @@ A given proposal can be in one of several states:
 ## Review announcement
 
 When a proposal enters review, an email using the following template will be
-sent to the swift-evolution-announce and swift-evolution mailing lists:
+sent to the swift-evolution mailing list and BCC'd to the swift-evolution-announce mailing list:
 
 ---
 
@@ -131,7 +129,7 @@ Hello Swift community,
 The review of "\<\<PROPOSAL NAME>>" begins now and runs through \<\<REVIEW
 END DATE>>. The proposal is available here:
 
-> <https://github.com/apple/swift-evolution/blob/master/proposals/NNNN-proposal.md>
+> http://linkToProposal
 
 Reviews are an important part of the Swift evolution process. All reviews
 should be sent to the swift-evolution mailing list at
